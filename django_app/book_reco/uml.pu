@@ -1,0 +1,64 @@
+@startuml book_reco files
+
+title book_reco 
+
+class Master{
+    distributeCard()
+    nominatePlayer()
+
+}
+
+class Player{
+    name
+    passCount
+
+    setNumber7()
+
+    setCard()
+    declareWin()
+    passTurn()
+    declareLose()
+}
+
+class Card{
+    suit
+    number
+}
+
+class Hand{
+    addCard()
+    pullCard()
+    seeCard()
+    countCardNumber()
+    shuffle()
+}
+
+class Table{
+    lineUpCard()
+    wacthCard()
+}
+
+@enduml
+
+' _____________________________________________
+
+@startuml PrepareGame
+
+title ゲームの準備
+
+Master->MasterHand:shuffle()
+Master->MasterHand:draw()
+Master<--MasterHand:card
+
+Master-> Player:distributeCard()
+Master-> Player:nominatePlayer()
+Player->Card:getNumber()
+Player<--Card:number
+
+Player->Table:setNumber() if number == 7
+
+Player->PlayerHand:addCard()
+
+@enduml
+
+' _____________________________________________

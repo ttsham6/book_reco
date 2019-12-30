@@ -1,0 +1,66 @@
+小説・エッセイ (101266)
+  資格・検定 (208663)
+  ライフスタイル (208726)
+  ホビー・スポーツ・美術 (101248)
+  絵本・児童書・図鑑 (208866)
+  語学・学習参考書 (101293)
+  旅行・留学・アウトドア (101242)
+  人文・地歴・哲学・社会 (101278)
+  ビジネス・経済・就職 (200446)
+  PC・システム開発 (101287)
+  科学・医学・技術 (101281)
+  コミック (101299)
+  ティーンズ文庫 (209260)
+  エンターテインメント (209298)
+  写真集・タレント (101257)
+  文庫・新書 (209331)
+  稀覯本 (200450)
+  復刊書籍 (200452)
+  オンデマンド書籍 (200453)
+  楽譜 (101254)
+  雑誌 (101302)
+  新聞 (200098)
+  洋書 (101297)
+  カレンダー・ポスター・パンフレット (101308)
+  デジタルコミック (411448)
+  デジタル写真集 (411470)
+  電子書籍 (411482)
+  その他 (203063)
+
+{'current': {
+  'booksGenreId': '000', 
+  'booksGenreName': '', 
+  'genreLevel': 0}, 
+'children': [
+  {'child': {
+  'booksGenreId': '001', 
+  'booksGenreName': '本',
+  'genreLevel': 1}},
+  {'child': {
+    'booksGenId': '002', 
+    'booksGenreName': 'CD', 
+    'genreLevelevel': 1}}, 
+  {'child': {
+    'booksGenreId': '003', 
+    'bookooksGenreName': '雑誌', 
+    'genreLevel': 1}}], 
+    'parents': []}sGenreName': 'DVD', 
+    'genreLevel': 1}}, 
+  {'child': {
+    'booksGenreId': '004', 
+    'booksGenreName': 'PCソフト・周辺機器', 
+    'genreLevel': 1}}, 
+  {'child': {
+    'booksGenreId': '005', 
+    'booksGenreName': '洋書', 
+    'genreLevel': 1}}, 
+  {'child': {
+    'booksGenreId': '006', 
+    'booksGenreName': 'ゲーム', 
+    'genreLevel': 1}}, 
+  {'child': {
+    'booksGenreId': '007', 
+    'booksGenreName': '雑誌', 
+    'genreLevel': 1}}
+  ], 
+  'parents': []}
