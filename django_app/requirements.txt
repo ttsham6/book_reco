@@ -28,7 +28,7 @@ jupyter-client==5.3.4
 jupyter-core==4.6.1
 Markdown==3.1.1
 mecab-python-windows==0.996.3
-numpy==1.17.4
+numpy==1.22.0
 parso==0.5.2
 pickleshare==0.7.5
 prompt-toolkit==3.0.2
